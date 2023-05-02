@@ -3,12 +3,21 @@ import "@hotwired/turbo-rails"
 import "./controllers"
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { configureStore } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux'
+import greetingReducer from './redux/greetingSlice'
 
-function App() {
-  return (<h1>Hello World!</h1>);
-}
+import App from './components/app'
+
+const store = configureStore({
+  reducer: {
+    greeting: greetingReducer
+  }
+});
 
 ReactDOM.render(
-  <App/>,
+  <Provider store={store}>
+    <App/>
+  </Provider>,
   document.getElementById('root'),
 );
