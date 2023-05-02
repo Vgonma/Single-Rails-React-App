@@ -32,6 +32,8 @@
 
   <ul>
     <li><a href="https://www.ruby-lang.org/en/documentation/">Ruby on Rails</a></li>
+    <li><a href="https://legacy.reactjs.org/docs/getting-started.html">React</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
   </ul>
 
 
