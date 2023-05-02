@@ -1,8 +1,11 @@
 import React from 'react'
 
-function Greeting(greeting = 'Hello') {
+function Greeting(props) {
   return (
-    <div>{ greeting }</div>
+    <div>
+      <h1>Greeter</h1>
+      <h2>{props.greeting}</h2>
+    </div>
   )
 }
 
