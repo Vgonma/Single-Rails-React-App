@@ -1,5 +1,4 @@
-# frozen_string_literal: true
-
+# Controller for managing app
 class RootController < ApplicationController
   def index; end
 end

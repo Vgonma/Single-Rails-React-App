@@ -1,4 +1,3 @@
-# frozen_string_literal: true
-
+# Root helper
 module RootHelper
 end

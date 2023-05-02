@@ -1,4 +1,3 @@
-# frozen_string_literal: true
-
+# Greetings helper
 module GreetingsHelper
 end

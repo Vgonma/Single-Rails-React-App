@@ -1,5 +1,4 @@
-# frozen_string_literal: true
-
+# Controller for managing greetings
 class GreetingsController < ApplicationController
   before_action :set_greeting, only: %i[show edit update destroy]
 
